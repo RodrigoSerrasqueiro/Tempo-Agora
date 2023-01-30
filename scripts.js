@@ -35,7 +35,7 @@ else if (hours >= 6 && hours < 12){
   salutation.textContent='Bom dia!'
 }
 else if (hours >= 12 && hours < 18){
-  salutation.textContent='Boa tarde!!!'
+  salutation.textContent='Boa tarde!'
 }
 else{
   salutation.textContent='Boa noite!'
