@@ -47,11 +47,12 @@ citySearchButton.addEventListener("click", () => {
   let city = citySearchBar.value
   getCityWeather(city)
 })
-citySearchBar.addEventListener("submit", function(event) {
-  event.preventDefault();
-  let city = citySearchBar.value;
-  getCityWeather(city);
-});
+citySearchBar.addEventListener("keydown", function(event) {
+  if (event.code === "Enter"  || event.code === "Submit") {
+    let city = citySearchBar.value
+    getCityWeather(city);
+  }
+})
 
 //Solicita ao usuário permissão para acessar sua geolocalização. Caso o usuário aceite é acionada uma função que contém 2 parâmetros: lat, lon
 //Caso o usuário negue, um alerta irá informá-lo. Em caso de outro erro, aparecerá no console.
