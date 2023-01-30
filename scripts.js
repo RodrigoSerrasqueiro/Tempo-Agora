@@ -48,7 +48,7 @@ citySearchButton.addEventListener("click", () => {
   getCityWeather(city)
 })
 citySearchBar.addEventListener("keydown", function(event) {
-  if (event.code === "Enter") {
+  if (event.code === "Enter" || event.code === "Submit") {
     let city = citySearchBar.value
     getCityWeather(city);
   }
