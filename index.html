@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Tempo agora | Confira informações sobre o clima de qualquer cidade</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="shortcut icon" href="./fav-icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+
+    <div class="search-bar-container">
+
+      <input type="text" id="search-bar" placeholder="Temperatura de qual cidade?">
+
+      <button id="search-button">
+        <img src="./assets/search-icon.svg" alt="ícone lupa" id="search-icon">
+      </button>
+
+    </div>
+    
+    <div id="current-date">...</div>
+    <div id="city-name">...</div>
+    <div id="salutation">...</div>
+
+  </header>
+
+  <section class="climate-container">
+
+    <img src="./assets/loading-icon.svg" aria-hidden="true" alt="ícone clima" id="climate-icon">
+    <div id="climate-description">...</div>
+    <div id="climate-label">Tempo agora</div>
+    <div id="climate-temperature">...</div>
+
+  </section>
+
+  <div class="bottom-container">
+
+    <section class="temperature-details">
+
+      <div class="temperature-details-item">
+        <div class="temperature-details-label">Vento</div>
+        <div class="temperature-details-value" id="wind-speed">...</div>
+      </div>
+
+      <div class="temperature-details-item">
+        <div class="temperature-details-label">Sensação</div>
+        <div class="temperature-details-value" id="feels-like-temperature">...</div>
+      </div>
+
+      <div class="temperature-details-item">
+        <div class="temperature-details-label">Umidade</div>
+        <div class="temperature-details-value" id="current-humidity">...</div>
+      </div>
+
+    </section>
+
+    <section class="sunset-sunrise">
+
+      <div class="sunset-sunrise-item">
+        <img src="./assets/sunrise.svg" alt="ícone nascer do sol" class="sunset-sunrise-icon">
+        <div class="sunset-sunrise-value" id="sunrise-time">...</div>
+      </div>
+
+      <div class="sunset-sunrise-item">
+        <img src="./assets/sunset.svg" alt="ícone por do sol" class="sunset-sunrise-icon">
+        <div class="sunset-sunrise-value" id="sunset-time">...</div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
