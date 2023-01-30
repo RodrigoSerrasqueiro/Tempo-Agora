@@ -29,7 +29,7 @@ if(hours >= 18 || hours < 6){
   currentTemperature.style.color='#b6aef0'
 }
 if(hours >=0 && hours < 6){
-  salutation.textContent='Boa madrugada!'
+  salutation.textContent='Boa madrugada!!!'
 }
 else if (hours >= 6 && hours < 12){
   salutation.textContent='Bom dia!'
