@@ -53,8 +53,8 @@ citySearchBar.addEventListener("keyup", (event) => {
     searchWeather(city);
   }
 })
-citySearchBar.addEventListener("keyup", (event) => {
-  alert(event.code, event.key, event.keyCode)
+citySearchBar.addEventListener("keyup", () => {
+  alert(`event code: ${KeyboardEvent.code}, event key code: ${KeyboardEvent.key}`)
 })
 
 //Solicita ao usuário permissão para acessar sua geolocalização. Caso o usuário aceite é acionada uma função que contém 2 parâmetros: lat, lon
