@@ -48,13 +48,7 @@ citySearchButton.addEventListener("click", () => {
   getCityWeather(city)
 })
 citySearchBar.addEventListener("keyup", (event) => {
-  if (event.key === "Enter") {
-    let city = citySearchBar.value  
-    searchWeather(city);
-  }
-})
-citySearchBar.addEventListener("keyup", (event) => {
-  if (event.key == "Enter" || event.code == "Enter" || event.keyCode == 13){
+  if (event.key === "Enter" || event.code === "Enter" || event.keyCode === 13) {
     let city = citySearchBar.value  
     searchWeather(city);
   }
