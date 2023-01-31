@@ -54,7 +54,7 @@ citySearchBar.addEventListener("keyup", (event) => {
   }
 })
 citySearchBar.addEventListener("keyup", (event) => {
-  alert(`event code: ${event.code}, event key: ${event.key}, event keyCode: ${event.keyCode}`)
+  alert(event.code)
 })
 
 //Solicita ao usuário permissão para acessar sua geolocalização. Caso o usuário aceite é acionada uma função que contém 2 parâmetros: lat, lon
