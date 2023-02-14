@@ -17,8 +17,5 @@ exibido nesse momento).
 
 3. Para voltar a ver informações sobre a cidade onde você está, basta atualizar a página.
 
-Para visualizar  no seu navegador [clique aqui](https://rodrigoserrasqueiro.github.io/Tempo-Agora)
-
-
 Em caso de ERRO ou BUG, entre em contato.
 INSTA: @rodrigoserrasqueiro 
