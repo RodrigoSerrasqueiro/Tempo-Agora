@@ -15,7 +15,6 @@ exibido nesse momento).
 
 3. Para voltar a ver informações sobre a cidade onde você está, basta atualizar a página.
 
-Este site está hospedato no **GitHub Pages.** Para acessá-lo [clique aqui](https://rodrigoserrasqueiro.github.io/Tempo-Agora/)
+Este site está hospedato no **GitHub Pages.** Para acessá-lo [clique aqui](https://rodrigoserrasqueiro.github.io/Tempo-Agora/).
 
-Em caso de ERRO ou BUG, entre em contato.
-INSTA: @rodrigoserrasqueiro 
+Em caso de ERRO ou BUG, abra uma issue em nosso repositório.
