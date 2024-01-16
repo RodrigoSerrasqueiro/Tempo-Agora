@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Essa é uma aplicação que traz informações sobre o clima de qualquer cidade em tempo real. Para obter tais informações, esse projeto consome a API do Open Weather Map. A interface desse programa é bastante agradável e muda dinâmicamente conforme o horário. É útil para saber como esta o tempo na cidade para onde você vai viajar por exemplo. No primeiro acesso do usuário, é solicitada permissão para acessar a sua localização atual e apresentar informações sobre o clima da cidade de onde o usuário está acessando. Responsiva e fácil de usar, essa aplicação põe em prática conceitos como consumo de API e localização em tempo real. 
+Essa é uma aplicação que traz informações sobre o clima de qualquer cidade em tempo real. Para obter tais informações, esse projeto consome a API do [Open Weather Map](https://openweathermap.org/api). A interface desse programa é bastante agradável e muda dinâmicamente conforme o horário. É útil para saber como esta o tempo na cidade para onde você vai viajar por exemplo. No primeiro acesso do usuário, é solicitada permissão para acessar a sua localização atual e apresentar informações sobre o clima da cidade de onde o usuário está acessando. Responsiva e fácil de usar, essa aplicação põe em prática conceitos como consumo de API e localização em tempo real. 
 
 - [Acesse o projeto finalizado, online](https://rodrigoserrasqueiro.github.io/Tempo-Agora)
 
