@@ -61,4 +61,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Desenvolvido por: Rodrigo Serrasqueiro [Dê uma olhada no meu portfólio!](https://github.com/rodrigoSerrasqueiro)
+Desenvolvido por: Rodrigo Serrasqueiro [Dê uma olhada no meu portfólio!](https://rodrigoserrasqueiro.github.io/Portfolio)
