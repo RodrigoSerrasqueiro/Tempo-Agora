@@ -49,8 +49,6 @@ Digite o seguinte comando para clonar o repositório:
 
 Caso esteja usando o VS Code, instale a extensão "Live Server". Após a instalação, clique com o botão direito do mouse no arquivo "index.html" e escolha a opção "Open With Live Server".
 
-`npm start`
-
 ## Conclusão:
 
 Pronto! Agora você pode clonar e executar o projeto em sua máquina. Caso tenha alguma dúvida ou problema, sinta-se à vontade para abrir uma issue em nosso repositório.
